@@ -99,7 +99,7 @@ class ConfigDiff extends AbstractMagentoCommand
 
             if (!$this->pdo) {
                 $output->writeLn("<error>Could not connect to remote database.</error>");
-                //return false;
+                return false;
             }
 
             if ($scope) {
