@@ -1,5 +1,5 @@
 autoloaders:
-  AlanCole: src
+  AlanCole: %module%/src
 
 commands:
   customCommands:
