@@ -1,0 +1,6 @@
+autoloaders:
+  AlanCole: src
+
+commands:
+  customCommands:
+    - AlanCole\N98\ConfigDiff
