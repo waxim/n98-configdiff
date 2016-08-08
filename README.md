@@ -16,13 +16,13 @@ mkdir ~/.n98-magerun/modules && cd ~/.n98-magerun/modules && git clone https://g
 Show different values.
 
 ```
-n98-magerun config:diff --dsn="mysql:host=localhost;port=3307;dbname=testdb" --show-different=1
+n98-magerun config:diff --dsn="mysql:host=localhost;port=3307;dbname=testdb" --username="root" --password="root"
 ```
 
 Only show only missing values.
 
 ```
-n98-magerun config:diff --dsn="mysql:host=localhost;port=3307;dbname=testdb" --show-missing=1 --show-different=0
+n98-magerun config:diff --dsn="mysql:host=localhost;port=3307;dbname=testdb" --username="root" --password="root" --show-missing=1 --show-different=0
 ```
 
 ### Full Options
