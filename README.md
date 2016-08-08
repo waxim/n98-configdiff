@@ -39,3 +39,7 @@ n98-magerun config:diff --dsn="mysql:host=localhost;port=3307;dbname=testdb" --u
 | `--show-missing` | Defaults to 0. Set to 1 to include missing rows in remote. |`0`|
 | `--scope` | Limit the scope. `website`,`store`,`global` | `website`|
 | `--scope-id` | The id of the scope limit | `2`|
+
+### ToDo
+- Allow exports of upgrade and downgrade SQL scripts
+- Option to filter or skip values
