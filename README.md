@@ -28,7 +28,7 @@ n98-magerun config:diff --dsn="mysql:host=localhost;port=3307;dbname=testdb" --s
 ### Full Options
 
 | Option | Description | Example |
-| - | - | - |
+| --- | --- | --- | 
 | `--dsn` | Required. The DSN for the remote database | `mysql:host=localhost;port=3307;dbname=testdb;charset=UTF8` |
 | `--username` | Required. Databse Username | `root`|
 | `--password` | Database Password | `root`|
