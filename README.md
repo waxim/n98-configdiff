@@ -25,6 +25,8 @@ Only show only missing values.
 n98-magerun config:diff --dsn="mysql:host=localhost;port=3307;dbname=testdb" --username="root" --password="root" --show-missing=1 --show-different=0
 ```
 
+> Note: Output to console for large tables can be slow, so consider piping the output to a file using ` > filename.txt` at the end of the command. 
+
 ### Full Options
 
 | Option | Description | Example |
